@@ -25,4 +25,10 @@ public class Testsgacha {
         String result = v2.cocina("4");
         Assertions.assertEquals("4", result);
     }
+
+    @Test
+    public void TestFor5() {
+        String result = v2.cocina("5");
+        Assertions.assertEquals("5", result);
+    }
 }
