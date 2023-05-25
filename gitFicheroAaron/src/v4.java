@@ -1,16 +1,16 @@
 public class v4 {
     public static String gacha(String g) {
-        String numero;
+        String nume;
         int num = Integer.parseInt(g);
         if(num % 3==0 && num % 5==0) {
-            numero = "Gachamiga";
+            nume = "Gachamiga";
         }else if (num % 3==0) {
-            numero = "Gacha";
+            nume = "Gacha";
         }else if (num % 5==0) {
-            numero = "Miga";
+            nume = "Miga";
         }else {
-            numero = num + "";
+            nume = num + "";
         }
-        return numero;
+        return nume;
     }
 }
