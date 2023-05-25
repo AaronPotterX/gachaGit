@@ -1,5 +1,5 @@
 public class v2 {
-    public static void main(String[] args) {
+    public static String cocina(String s) {
         for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("Gachamiga");
@@ -11,5 +11,6 @@ public class v2 {
                 System.out.println(i);
             }
         }
+        return s;
     }
 }
