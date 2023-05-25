@@ -73,4 +73,10 @@ public class Testsgacha {
         String result = v2.cocina("12");
         Assertions.assertEquals("12", result);
     }
+
+    @Test
+    public void TestFor13() {
+        String result = v2.cocina("13");
+        Assertions.assertEquals("13", result);
+    }
 }
