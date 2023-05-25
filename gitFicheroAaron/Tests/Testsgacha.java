@@ -19,4 +19,10 @@ public class Testsgacha {
         String result = v2.cocina("3");
         Assertions.assertEquals("3", result);
     }
+
+    @Test
+    public void TestFor4() {
+        String result = v2.cocina("4");
+        Assertions.assertEquals("4", result);
+    }
 }
