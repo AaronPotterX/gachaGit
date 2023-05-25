@@ -1,5 +1,5 @@
 public class v3 {
-    public static String gacha(String s) {
+    public static String gacha(String g) {
         for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("Gachamiga");
@@ -11,6 +11,6 @@ public class v3 {
                 System.out.println(i);
             }
         }
-        return s;
+        return g;
     }
 }
